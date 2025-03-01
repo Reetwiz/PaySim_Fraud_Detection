@@ -12,8 +12,7 @@ Training and evaluation was performed on LGBM and XGBoost models. For LGBM SMOTE
 
 #### The user can select values from the dropdown and test.
 
-![alt text](images/image-3.png)
-
+![alt text](images/image.png)
 Let us take two cases from the dataset where **isfraud is true** and fraud must be detected
 | index | step | type | amount | oldbalanceOrg | newbalanceOrig | oldbalanceDest | newbalanceDest | isFraud | isFlaggedFraud |
 |---------|------|------|------------|---------------|----------------|----------------|----------------|---------|---------------|

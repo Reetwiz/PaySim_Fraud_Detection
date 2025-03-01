@@ -35,7 +35,7 @@ if input_choice == "Use Sample Data":
     # Let user select a sample row and display full data
     selected_index = st.selectbox("Select a transaction:", sample_data.index)
     selected_row = sample_data.iloc[selected_index:selected_index + 1]
-    st.write("### Selected Transaction (Full Data)")
+    st.write("### Selected Transaction")
     st.table(selected_row)
     
     # Show expected fraud result from sample data
