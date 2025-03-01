@@ -12,7 +12,7 @@ Training and evaluation was performed on LGBM and XGBoost models. For LGBM SMOTE
 
 #### The user can select values from the dropdown and test.
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 Let us take two cases from the dataset where **isfraud is true** and fraud must be detected
 | index | step | type | amount | oldbalanceOrg | newbalanceOrig | oldbalanceDest | newbalanceDest | isFraud | isFlaggedFraud |
@@ -26,17 +26,17 @@ Let us take two cases from the dataset where **isfraud is true** and fraud must 
 'PAYMENT': (3),
 'TRANSFER': (4)})
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 Fraud is successfully detected in both cases **for the default threshold**. The models have high recall but suffers with low precision which drastically reduces the F1-Score.
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](images/image-8.png)
+![alt text](images/image-9.png)
 
 ### So we adjust the threshold
 
 We prevent **false positive alarms** at the cost of some **missed fraudulent transactions** to maintain the F1 Score.
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](images/image-10.png)
+![alt text](images/image-11.png)
 
 The value of threshold depends on the business requirements. For imbalanced dataset the value of accuracy is not meaningful so we rely on precision and recall.
 
@@ -44,9 +44,9 @@ The value of threshold depends on the business requirements. For imbalanced data
 
 #### Dataset distribution Charts
 
-![alt text](image-4.png)
-![alt text](image-5.png)
+![alt text](images/image-4.png)
+![alt text](images/image-5.png)
 
-![alt text](image-12.png)
-![alt text](image-13.png)
-![alt text](image-16.png)
+![alt text](images/image-12.png)
+![alt text](images/image-13.png)
+![alt text](images/image-16.png)
